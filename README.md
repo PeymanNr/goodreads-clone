@@ -59,10 +59,10 @@ This project is a backend API designed for a simple book review website, similar
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/PeymanNr/goodreads-clone
    cd bookreview-api
-   \`\`\`
+   ```
 
 2. Install dependencies:
    \`\`\`bash
