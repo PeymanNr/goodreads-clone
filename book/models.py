@@ -37,7 +37,7 @@ class Comment(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f'{self.user} rated {self.book} with {self.text}'
+        return f'{self.user} commented {self.book} with {self.text}'
 
 
 class Bookmark(models.Model):
